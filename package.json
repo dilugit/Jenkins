@@ -1,0 +1,16 @@
+{
+  "name": "dilushatest",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "newman run 'https://api.getpostman.com/collections/cce034a4-bbbb-43f3-b78b-194a0f73f7ae?apikey=PMAK-5edfdaeac7b1c60042b50288-4a50de043d75b320b487fec46057b68e3a' --environment 'https://api.getpostman.com/environments/639d3cb1-deb4-45ea-969b-17d4f92747c4?apikey=PMAK-5edfdaeac7b1c60042b50288-4a50de043d75b320b487fec46057b68e3a' --reporters=cli,htmlextra"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^5.1.0"
+  }
+}
